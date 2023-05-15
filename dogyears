@@ -1,0 +1,12 @@
+var myAge = prompt("What is your age?");
+// calculating early years, worth 10.5 years each
+var earlyYears = 2;
+earlyYears = earlyYears * 10.5;
+// calculating later years, with 4 years each
+var laterYears = myAge - 2;
+laterYears *= 4;
+// Combine early years and late years
+myAgeInDogYears = laterYears + earlyYears;
+name = prompt("What is your name?");
+let myName = name.toLowerCase();
+console.log(`My name is  ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`)
